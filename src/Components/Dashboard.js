@@ -3,12 +3,25 @@ import profile from "../assets/images/profile.jpg"
 import bg1 from "../assets/images/img_bg_1.jpg"
 import bg2 from "../assets/images/img_bg_2.jpg"
 import cover from "../assets/images/cover_bg_1.jpg"
-import img1 from "../assets/images/img1.png"
-import img2 from "../assets/images/img2.png"
-import img3 from "../assets/images/img3.png"
-import img4 from "../assets/images/img4.png"
-import img5 from "../assets/images/img5.png"
-import img6 from "../assets/images/img6.png"
+// import img1 from "../assets/images/img1.png"
+// import img2 from "../assets/images/img2.png"
+// import img3 from "../assets/images/img3.png"
+// import img4 from "../assets/images/img4.png"
+// import img5 from "../assets/images/img5.png"
+// import img6 from "../assets/images/img6.png"
+
+import img1 from "../assets/work/oneAim-website.png"
+import img2 from "../assets/work/otopark-website.png"
+import img3 from "../assets/work/merchant-portal.png"
+import img4 from "../assets/work/otopark-admin-portal.png"
+import img5 from "../assets/work/chat-app.png"
+import img6 from "../assets/work/todo-app.png"
+import img7 from "../assets/work/bewakoof-app.png"
+import img8 from "../assets/work/insta-app.png"
+import img9 from "../assets/work/plvm-app.png"
+import img10 from "../assets/work/parking-web-app.png"
+
+
 
 
 export default function Dashboard() {
@@ -21,19 +34,19 @@ export default function Dashboard() {
 			<div class="text-center">
 				<div class="author-img" style={{backgroundImage: `url("${profile}")`}}></div>
 				<h1 id="colorlib-logo"><a href="index.html">Zaid Khan</a></h1>
-				<span class="position"><a href="#">Front end Developer</a> in India</span>
+				<span class="position"><a href="#">React Js Developer</a> in India</span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
 						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
+						{/* <li><a href="#" data-nav-section="services">Services</a></li> */}
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li>
+						{/* <li><a href="#" data-nav-section="blog">Blog</a></li> */}
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -66,7 +79,7 @@ export default function Dashboard() {
 					   				<div class="slider-text-inner js-fullheight">
 					   					<div class="desc">
 						   					<h1>Hi! <br/>I'm Zaid</h1>
-						   					<h2>I am web a developer specialized in a front-end web development </h2>
+						   					<h2>I am React Js developer specialized in a front-end  development </h2>
 												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
 											</div>
 					   				</div>
@@ -81,8 +94,8 @@ export default function Dashboard() {
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner">
 					   					<div class="desc">
-						   					<h1>I am <br/>a Front end Developer</h1>
-												<h2>Using React Js Framework </h2>
+						   					<h1>I am <br/>React Js Developer</h1>
+												<h2>Using Material UI Framework and Semantic UI Framework</h2>
 												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
 											</div>
 					   				</div>
@@ -103,8 +116,11 @@ export default function Dashboard() {
 									<div class="about-desc">
 										<span class="heading-meta">About Us</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Zaid Khan</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-										<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+										<p><strong>Hi I'm Zaid Khan</strong> 
+										I m React Js Developer on Front-end and I have 1 year and 7 months of hand on experience on front-end site and have good knowledge of React native and Node Js , Express, Mongodb database. 
+										I m capable of setup of back-end using Node Js , Express and Mongodb database.</p>
+										<p>Currently i'm working on oneAimSolutions Pvt Ltd as a front-end developer.I m on position of Juniour Software Developer</p>
+										<p>My Primary Skill is <b>React Js</b> and <b>JavaScript</b></p>
 									</div>
 								</div>
 							</div>
@@ -123,16 +139,41 @@ export default function Dashboard() {
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
 									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
+										<span class="icon2"><i class="icon-bulb"></i></span>
 										<h3>HTML5 & CSS3</h3>
 									</div>
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
 									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
 										<h3>Bootstrap</h3>
 									</div>
 								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>React Native</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
+										<h3>Node Js</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
+										<h3>Express Js</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-data"></i></span>
+										<h3>Mongodb</h3>
+									</div>
+								</div>
+							
 							</div>
 							<div class="row">
 								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
@@ -149,7 +190,7 @@ export default function Dashboard() {
 
 
 			
-			<section class="colorlib-services" data-section="services">
+			{/* <section class="colorlib-services" data-section="services">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -252,7 +293,7 @@ export default function Dashboard() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			<section class="colorlib-skills" data-section="skills">
 				<div class="colorlib-narrow-content">
@@ -264,7 +305,8 @@ export default function Dashboard() {
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+							<p>I m React Js Developer on Front-end and I have 1 year and 7 months of hand on experience on front-end site and have good knowledge of React native and Node Js , Express, Mongodb database. 
+						I m capable of setup of back-end using Node Js , Express and Mongodb database.</p>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
@@ -272,7 +314,7 @@ export default function Dashboard() {
 								<div class="progress">
 								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width: "75%"}}>
-								    <span>75%</span>
+								    <span>80%</span>
 								  	</div>
 								</div>
 							</div>
@@ -283,7 +325,7 @@ export default function Dashboard() {
 								<div class="progress">
 								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width: "60%"}}>
-								    <span>60%</span>
+								    <span>50%</span>
 								  	</div>
 								</div>
 							</div>
@@ -294,7 +336,7 @@ export default function Dashboard() {
 								<div class="progress">
 								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width: "85%"}}>
-								    <span>85%</span>
+								    <span>95%</span>
 								  	</div>
 								</div>
 							</div>
@@ -305,7 +347,7 @@ export default function Dashboard() {
 								<div class="progress">
 								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width: "90%"}}>
-								    <span>90%</span>
+								    <span>95%</span>
 								  	</div>
 								</div>
 							</div>
@@ -316,7 +358,18 @@ export default function Dashboard() {
 								<div class="progress">
 								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"80%"}}>
-								    <span>80%</span>
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>React Native</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style={{width:"50%"}}>
+								    <span>50%</span>
 								  	</div>
 								</div>
 							</div>
@@ -332,13 +385,24 @@ export default function Dashboard() {
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="progress-wrap">
-								<h3>React Native</h3>
+								<h3>Express Js</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style={{width: "20%"}}>
-								    <span>20%</span>
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style={{width:"50%"}}>
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Mongodb database</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style={{width:"50%"}}>
+								    <span>50%</span>
 								  	</div>
 								</div>
 							</div>
@@ -359,39 +423,19 @@ export default function Dashboard() {
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
 							<div class="fancy-collapse-panel">
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Master Degree Graphic Design
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
+									
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor  of Engineering
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									            <p>I completed my B.E from Theem college of engineering specialized in computer science.I passed out B.E in 2019.</p>
 													<ul>
-														<li>Separated they live in Bookmarksgrove right</li>
-														<li>Separated they live in Bookmarksgrove right</li>
+														<li>I have B.E degree of Mumbai of University</li>
 													</ul>
 									        </div>
 									    </div>
@@ -399,13 +443,16 @@ export default function Dashboard() {
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingThree">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">HSC (12th)
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+											<p>I completed HSC from R.B Harrish Jr. college. I passed out B.E in 2015.</p>
+													<ul>
+														<li>I got 65% in HSC</li>
+													</ul>
 									        </div>
 									    </div>
 									</div>
@@ -413,30 +460,21 @@ export default function Dashboard() {
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingFour">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">SSC (10th)
 									            </a>
 									        </h4>
 									    </div>
 									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
+											<p>I completed SSC from St.Lukes High school. I passed out B.E in 2013.</p>
+													<ul>
+														<li>I got 84% in SSC</li>
+													</ul>
 									        </div>
 									    </div>
 									</div>
 
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -462,9 +500,10 @@ export default function Dashboard() {
 					                  <i class="icon-pen2"></i>
 					               </div>
 
-					               <div class="timeline-label">
-					                  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-					                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+								   <div class="timeline-label">
+					               	<h2><a href="#">OneAimSolutions Pvt Ltd - React Js Developer</a> <span>2019-2020</span></h2>
+					                  <p>I am working as a Software developer and currently working on React Js.</p>
+									  <p>I worked here as a frontend developer and was also working with the server side team  for integration  of  backend API.</p>
 					               </div>
 					            </div>
 					         </article>
@@ -476,8 +515,10 @@ export default function Dashboard() {
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">Otopark Pvt Ltd - Software Developer</a> <span>2019-2020</span></h2>
+					                  <p>I worked as a frontend developer and worked on React js .</p>
+									  <p>I am working as a Software developer and currently working on React Js .</p>
+									  <p>I have quite good knowledge of React Native and Node Js. I started working on React Native  and  Node Js </p>
 					               </div>
 					            </div>
 					         </article>
@@ -488,32 +529,10 @@ export default function Dashboard() {
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">Edureka Pvt Ltd - Software Developer</a> <span>2019-2020</span></h2>
+									  <p>I worked as a frontend developer with  React js.</p>
+									  <p>I developed merchant admin portal for edureka company</p>
+									  <p>I developed  admin portal using React and Node Js</p>
 					               </div>
 					            </div>
 					         </article>
@@ -538,18 +557,17 @@ export default function Dashboard() {
 							<h2 class="colorlib-heading animate-box">Recent Work</h2>
 						</div>
 					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#">Graphic Design</a></span> <span ><a href="#"  class="active">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
+				
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<span><b>OneAimSolutions Website</b></span> <br/>
+						<span><a href="https://zkhan07.github.io/oneaimsolutions/#/index">https://zkhan07.github.io/oneaimsolutions/#/index</a></span> <br/>
+						<span>Technologies: React Js , HTML ,CSS , Semantic UI</span>
 							<div class="project" style={{backgroundImage: `url("${img1}")`}}>
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
+										<h3><a href="work.html">OneAimSolutions Website</a></h3>
+										<span>Technologies: React Js , Semantic UI</span>
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
@@ -560,11 +578,14 @@ export default function Dashboard() {
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+						<span><b>Otopark Website</b></span> <br/>
+						<span><a href="https://zkhan07.github.io/otopark_website/#/">https://zkhan07.github.io/otopark_website/#/</a></span> <br/>
+						<span>Technologies: React Js , HTML ,CSS , Material UI</span>
 							<div class="project" style={{backgroundImage: `url("${img2}")`}}>
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
+										<h3><a href="work.html">Otopark Website</a></h3>
+										<span>Technologies: React Js , Material UI</span>
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
@@ -575,11 +596,14 @@ export default function Dashboard() {
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+						<span><b>Eureka Admin Merchant Portal</b></span> <br/>
+						<span><a href="#">Empty</a></span> <br/>
+						<span>Technologies: React Js , HTML ,CSS , Material UI</span>
 							<div class="project" style={{backgroundImage: `url("${img3}")`}}>
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
+										<h3><a href="work.html">Eureka Admin Merchant Portal</a></h3>
+										<span>Technologies: React Js , Material UI</span>
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
@@ -590,6 +614,9 @@ export default function Dashboard() {
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+						<span><b>Otopark Admin Portal</b></span> <br/>
+						<span><a href="https://zkhan07.github.io/otopark_admin/#/">https://zkhan07.github.io/otopark_admin/#/</a></span> <br/>
+						<span>Technologies: React Js , HTML ,CSS , Material UI</span>
 							<div class="project" style={{backgroundImage: `url("${img4}")`}}>
 								<div class="desc">
 									<div class="con">
@@ -604,12 +631,51 @@ export default function Dashboard() {
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+						<span><b>Real Chat Web Application</b></span> <br/>
+						<span><a href="https://khan-chat-app.netlify.app/">https://khan-chat-app.netlify.app/</a></span> <br/>
+						<span>Technologies: React Js, Material UI, Node Js and Socket.io </span>
 							<div class="project" style={{backgroundImage: `url("${img5}")`}}>
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
+										<h3><a href="work.html">Real Chat Web Application</a></h3>
+										<span>Technologies: React Js, Material UI, Node Js and Socket.io</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+						<span><b>Todo Web Application</b></span> <br/>
+						<span><a href="https://khan-todo-app.netlify.app/">https://khan-todo-app.netlify.app/</a></span> <br/>
+						<span>Technologies: React Js,Material UI, Node Js, Express Js, Mongodb , Redux thunk</span>
+							<div class="project" style={{backgroundImage: `url("${img6}")`}}>
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Todo Web Application</a></h3>
+										<span>Technologies: React Js,Material UI, Node Js, Express Js, Mongodb , Redux thunk</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<span><b>Bewakoof Clone Website</b></span> <br/>
+						<span><a href="https://zkhan07.github.io/bewakoof_app/#/">https://zkhan07.github.io/bewakoof_app/#/</a></span> <br/>
+						<span>Technologies: React Js , HTML ,CSS , Material UI</span>
+							<div class="project" style={{backgroundImage: `url("${img7}")`}}>
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Bewakoof Clone Website</a></h3>
+										<span>Technologies: React Js , HTML ,CSS , Material UI</span>
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
@@ -620,11 +686,14 @@ export default function Dashboard() {
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style={{backgroundImage: `url("${img6}")`}}>
+						<span><b>Instagram Clone Website</b></span> <br/>
+						<span><a href="https://zkhan07.github.io/insta_app/#/">https://zkhan07.github.io/insta_app/#/</a></span> <br/>
+						<span>Technologies: React Js , HTML ,CSS , Semantic UI</span>
+							<div class="project" style={{backgroundImage: `url("${img8}")`}}>
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
+										<h3><a href="work.html">Instagram Clone Website</a></h3>
+										<span>Technologies: React Js , HTML ,CSS , Semantic UI</span>
 										<p class="icon">
 											<span><a href="#"><i class="icon-share3"></i></a></span>
 											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
@@ -634,6 +703,46 @@ export default function Dashboard() {
 								</div>
 							</div>
 						</div>
+
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+						<span><b>Parking System Software</b></span> <br/>
+						<span><a href="https://zkhan07.github.io/plvm_app/#/">https://zkhan07.github.io/plvm_app/#/</a></span> <br/>
+						<span>Technologies: React Js , HTML ,CSS , Semantic UI</span>
+							<div class="project" style={{backgroundImage: `url("${img9}")`}}>
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Parking System Software</a></h3>
+										<span>Technologies: React Js , HTML ,CSS , Semantic UI</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+						<span><b>Parking System Website</b></span> <br/>
+						<span><a href="https://zkhan07.github.io/parking_webapp/#/">https://zkhan07.github.io/parking_webapp/#/</a></span> <br/>
+						<span>Technologies: React Js , HTML ,CSS , Semantic UI</span>
+							<div class="project" style={{backgroundImage: `url("${img10}")`}}>
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Parking System Website</a></h3>
+										<span>Technologies: React Js , HTML ,CSS , Semantic UI</span>
+										<p class="icon">
+											<span><a href="#"><i class="icon-share3"></i></a></span>
+											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box">
@@ -643,7 +752,8 @@ export default function Dashboard() {
 				</div>
 			</section>
 
-			<section class="colorlib-blog" data-section="blog">
+			{/* Blog */}
+			{/* <section class="colorlib-blog" data-section="blog">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -689,7 +799,7 @@ export default function Dashboard() {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
